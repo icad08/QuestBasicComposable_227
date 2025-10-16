@@ -188,4 +188,23 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
         }
     }
 }
+@Composable
+fun TataletakBoxColumnRow(modifier: Modifier) {
+    // ... (Kode val gambar, Box pertama, Spacer, dan Box kedua tetap sama)
 
+    Box(
+        // ... (modifier Box kedua)
+    ) {
+        Image(
+            // ... (properti Image)
+        )
+        Text(
+            text = "My Image",
+            fontSize = 50.sp,
+            color = Color.Red,
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.align(Alignment.Center)
+        )
+    }
+}
+}
