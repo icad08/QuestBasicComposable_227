@@ -1,4 +1,4 @@
-package com.example.mylayout
+package com.example.myapplication
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -7,13 +7,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import com.example.mylayout.ui.theme.MyLayoutTheme
+import com.example.myapplication.ui.theme.myapplicationTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            MyLayoutTheme {
+            myapplicationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     // Composable Layout Standar dengan padding dari Scaffold
                     TataletakBoxColumnRow(
