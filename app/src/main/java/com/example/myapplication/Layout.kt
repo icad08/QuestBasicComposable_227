@@ -1,5 +1,6 @@
 package com.example.mylayout
 
+<<<<<<< HEAD
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -22,6 +23,14 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+=======
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+>>>>>>> dead515ebacc54c9e124ca8ac74ef156eb8cd273
 
 @Composable
 fun TataletakColumn(modifier: Modifier) {
@@ -33,6 +42,7 @@ fun TataletakColumn(modifier: Modifier) {
     }
 }
 
+<<<<<<< HEAD
 @Composable
 fun TataletakRow(modifier: Modifier) {
     Row(
@@ -263,3 +273,5 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
         }
     }
 }
+=======
+>>>>>>> dead515ebacc54c9e124ca8ac74ef156eb8cd273
